@@ -59,3 +59,9 @@ function reverse (n) {
 - https://learngitbranching.js.org
 
 - https://rs.school/js-stage0
+
+## Languages:
+
+- Russian - Native
+
+- English - B2-upper independent
