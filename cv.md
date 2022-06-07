@@ -29,3 +29,17 @@
 - VSCode (Basic)
 
 - Apex (Basic)
+
+## Code Example:
+
+```
+function reverse (n) {
+    let posN = Math.abs(n)
+    let str = String(posN);
+    let arr = str.split('');
+    let revArr = arr.reverse();
+    let gluArr = revArr.join('');
+    let revNumber = Number(gluArr)
+    return revNumber;   
+}
+```
