@@ -47,3 +47,15 @@ function reverse (n) {
 ## Experience:
 
 - https://trailblazer.me/id/vzinovik
+
+## Courses:
+
+- https://ru.code-basics.com/languages/html
+
+- https://ru.code-basics.com/languages/css
+
+- https://ru.code-basics.com/languages/javascript
+
+- https://learngitbranching.js.org
+
+- https://rs.school/js-stage0
