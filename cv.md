@@ -7,3 +7,11 @@
 - **email:** zinovikv@gmail.com
 
 - **github:** vladimirzinovik
+
+## About me:
+
+- Outgoing friendly person.
+
+- I always love learning something new.
+
+- Persistent in work and study.
