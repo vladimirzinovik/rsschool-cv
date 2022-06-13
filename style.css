@@ -9,7 +9,7 @@ html {
 
 .header {
   height: 90px;
-  background-color: beige;
+  background-color: rgb(173, 182, 171);
 }
 
 .nav-list {
@@ -22,7 +22,6 @@ html {
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  text-decoration: none;
   color: rgb(48, 48, 48);
 }
 
@@ -43,7 +42,7 @@ html {
   flex-wrap: wrap;
 }
 
-section {
+.section {
   width: 50%;
   height: 300px;
 }
@@ -83,7 +82,29 @@ img {
 }
 
 @media (max-width: 768px) {
-  section {
+  .section {
     width: 100%;
   }
+}
+
+.footer {
+  height: 90px;
+  background-color: rgb(173, 182, 171);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  cursor: pointer;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
 }
