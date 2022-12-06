@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>cv</title>
+</head>
+
+<body class="body">
+
+  <header class="header">
+    <div class="container header-container">
+      <div class="nav">
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <a href="#photo" class="nav-link">photo</a>
+            </li>
+            <li>
+              <a href="#name" class="nav-link">name</a>
+            </li>
+            <li>
+              <a href="#contacts" class="nav-link">contacts</a>
+            </li>
+            <li>
+              <a href="#summary" class="nav-link">summary</a>
+            </li>
+            <li>
+              <a href="#skills" class="nav-link">skills</a>
+            </li>
+            <li>
+              <a href="#code" class="nav-link">code</a>
+            </li>
+            <li>
+              <a href="#courses" class="nav-link">courses</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link">projects</a>
+            </li>
+            <li>
+              <a href="#education" class="nav-link">education</a>
+            </li>
+            <li>
+              <a href="#english" class="nav-link">english</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="container main-container">
+
+      <div class="photo section" id="photo">
+        <div class="my-photo">
+          <img src="./assets/img/IMG_20220611_133723.jpg" alt="my photo">
+        </div>
+      </div>
+
+      <section class="name section" id="name">
+        <div class="my-name">
+          <h1>Vladimir Zinovik</h1>
+          <p>rs school student</p>
+        </div>
+      </section>
+
+      <section class="contacts section" id="contacts">
+        <div class="my-contacts-title">
+          <h2>contacts:</h2>
+        </div>
+        <div class="my-contacts">
+          <ul>
+            <li>phone: +375296553274</li>
+            <li>email: zinovikv@gmail.com</li>
+            <li>github: vladimirzinovik</li>
+            <li>telegram: @vladimirzinovik</li>
+            <li>discord: Vladimir Zinovik#2308</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="summary section" id="summary">
+        <div>
+          <h2>summary:</h2>
+        </div>
+        <div>
+          <ul>
+            <li>Outgoing friendly person</li>
+            <li>I always love learning something new</li>
+            <li>Persistent in work and study</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <div>
+          <h2>skills:</h2>
+        </div>
+        <div>
+          <ul>
+            <li>JavaScript (Basic)</li>
+            <li>HTML (Basic)</li>
+            <li>CSS (Basic)</li>
+            <li>GIT (Basic)</li>
+            <li>VSCode (Basic)</li>
+            <li>Apex (Basic)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="code section" id="code">
+        <div>
+          <h2>code:</h2>
+        </div>
+        <div>
+          <pre>
+            <code>
+              function reverse (n) {
+                let posN = Math.abs(n)
+                let str = String(posN);
+                let arr = str.split('');
+                let revArr = arr.reverse();
+                let gluArr = revArr.join('');
+                let revNumber = Number(gluArr)
+                return revNumber;   
+            }
+          </code>
+        </pre>
+        </div>
+      </section>
+
+      <section class="courses section" id="courses">
+        <div>
+          <h2>courses:</h2>
+        </div>
+        <div>
+          <ul>
+            <li>https://ru.code-basics.com/languages/html</li>
+            <li>https://ru.code-basics.com/languages/css</li>
+            <li>https://ru.code-basics.com/languages/javascript</li>
+            <li>https://learngitbranching.js.org</li>
+            <li>https://rs.school/js-stage0</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div>
+          <h2>project</h2>
+        </div>
+        <div>
+          <a href="https://vladimirzinovik.github.io/rsschool-cv/cv">CV</a>
+        </div>
+      </section>
+
+      <section class="education section" id="education">
+        <div>
+          <h2>education:</h2>
+        </div>
+        <div>
+          <a href="https://rs.school/js-stage0">rs-school/js-stage0</a>
+        </div>
+      </section>
+
+      <section class="english section" id="english">
+        <div>
+          <h2>english:</h2>
+        </div>
+        <div>English - B2-upper independent</div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="year">&copy; 2022</div>
+      <div class="github"><a href="https://github.com/vladimirzinovik">vladimirzinovik</a></div>
+      <div class="logo"><a href="https://rs.school/js/"><img src="./assets/svg/rs_school_js.svg" alt="logo"></a></div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
